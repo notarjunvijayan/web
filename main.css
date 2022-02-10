@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto&display=swap');
 header{
-    background-color: #161f6d;
+    background-color: #134f5c;
     color: #fff;
     position: fixed;
     top: 0%;
@@ -10,9 +10,8 @@ header{
     font-size: 1.25em;
 }
 body{
-    margin-top: 5%;
+    margin: 0% 0% 0% 0%;
     background-color: #00abe1;
-    color: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 hr{
@@ -20,16 +19,7 @@ hr{
 }
 body h1{
     font-size: 5em;
-    font-family: 'Roboto', sans-serif;
-}
-footer{
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    background-color: #161f6d;
-    color: #fff;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;;
 }
 header h2{
     float:left;
@@ -47,11 +37,23 @@ header a {
     color:#fff;
 }
 .select-nav{
-    background-color:#00abe1 ;
+    background-color:#45818e ;
 }
 header li:hover{
     background-color: grey;
 }
 header ul{
     margin: 0% 1% 0% 0%
+}
+footer{
+    width:98em;
+    background-color: #134f5c;
+    color: #fff;
+    text-align: center;
+    padding: 1em 1em 2em 1em;
+    height: 1em;
+    position: fixed;
+    bottom:0%;
+    left:0%;
+    right:0%;
 }

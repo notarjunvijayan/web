@@ -1,0 +1,23 @@
+body{
+    color: grey;
+}
+body h1{
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+}
+.heading{
+    background-image:url(images/bgimg.jpg);
+    background-size:100%;
+    width: auto;
+    height:auto;
+    padding:20em 20em 20em 20em;
+    background-clip: border-box;
+    margin:0% 0% 0% 0%;
+    border:none;
+}
+.heading-text{
+    align-items: flex-end;
+    margin:0%;
+    padding:0% 0% 0% 5%;
+}
