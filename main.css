@@ -8,6 +8,7 @@ header{
     right:0%;
     font-family: 'Lato', sans-serif;
     font-size: 1.25em;
+    margin-bottom:0%
 }
 body{
     margin: 0% 0% 0% 0%;
@@ -46,7 +47,7 @@ header ul{
     margin: 0% 1% 0% 0%
 }
 footer{
-    width:98em;
+    width: 100%;
     background-color: #134f5c;
     color: #fff;
     text-align: center;
