@@ -12,6 +12,7 @@ header{
 }
 body{
     margin: 0% 0% 0% 0%;
+    height: 100vh;
     background-color: #00abe1;
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,7 +21,8 @@ hr{
 }
 body h1{
     font-size: 5em;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5vh;
 }
 header h2{
     float:left;
@@ -47,14 +49,15 @@ header ul{
     margin: 0% 1% 0% 0%
 }
 footer{
-    width: 100%;
+    width:94%;
     background-color: #134f5c;
     color: #fff;
     text-align: center;
-    padding: 1em 1em 2em 1em;
-    height: 1em;
-    position: fixed;
-    bottom:0%;
-    left:0%;
-    right:0%;
+    padding: 1em 3em 2em 2em;
+    height: 4vh;
+    position:absolute;
+    margin-bottom:0%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-top:0%;
 }
