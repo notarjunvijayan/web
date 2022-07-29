@@ -1,5 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto&display=swap');
 header{
+    background-color: #03586b;
+    font-family: 'Pacifico', cursive;
+    color: #8ee4af;
+    padding:1%;
+}
+.blue-box{
+    background-color: #03586b;
+    color:#8EE4AF;
+    padding:20%;
+}
+.green-box{
+    background-color: #5cdb9f;
+    padding:20%;
+}
+h2{
+    font-family: 'Arimo',sans-serif;
+}
+p{
+    font-family: 'Josephin Sans',sans-serif;
+}
+footer{
+    background-color: #1a2238;
+    color: #464866;
+    font-family: 'Arimo',sans-serif;
+}
+.link-col{
+    border: 5%;
+    padding:1%;
+}
+p{
+    padding:3%;
+}
+.btn-blue{
+
+    background-color: #03586b;
+    color:#8ee4af;
+    font-family: 'Arimo',sans-serif;
+    border-color: #8ee4af;
+}
+.btn-blue:hover{
+    background-color: #5cdb9f;
+    color:black;
+    border-color: #03586b;
+}
+.btn-green{
+    background-color: #5cdb9f;
+    color:#000000;
+    font-family: 'Arimo',sans-serif;
+    border-color: #000000;
+}
+.btn-green:hover{
+    background-color: #03586b;
+    color:#8ee4af;
+    font-family: 'Arimo',sans-serif;
+    border-color: #8ee4af;
     background-color: #134f5c;
     color: #fff;
     position: fixed;
@@ -9,55 +63,4 @@ header{
     font-family: 'Lato', sans-serif;
     font-size: 1.25em;
     margin-bottom:0%
-}
-body{
-    margin: 0% 0% 0% 0%;
-    height: 100vh;
-    background-color: #00abe1;
-    font-family: 'Open Sans', sans-serif;
-}
-hr{
-    color: #161f6d; 
-}
-body h1{
-    font-size: 5em;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 5vh;
-}
-header h2{
-    float:left;
-    margin: 5px 0% 0% 1%;
-}
-header li{
-    display: inline;
-    float: right;
-    padding: 10px 15px 15px 15px;
-    list-style-type: none;
-    margin: 0%
-}
-header a {
-    text-decoration: none;
-    color:#fff;
-}
-.select-nav{
-    background-color:#45818e ;
-}
-header li:hover{
-    background-color: grey;
-}
-header ul{
-    margin: 0% 1% 0% 0%
-}
-footer{
-    width:94%;
-    background-color: #134f5c;
-    color: #fff;
-    text-align: center;
-    padding: 1em 3em 2em 2em;
-    height: 4vh;
-    position:absolute;
-    margin-bottom:0%;
-    margin-left:0%;
-    margin-right:0%;
-    margin-top:0%;
 }
